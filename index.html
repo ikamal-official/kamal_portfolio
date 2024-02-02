@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ed5497e7a4.js" crossorigin="anonymous"></script>
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav> 
+            <img src="images/logo2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></a></li>
+                <li><a href="#about">About</a></a></li>
+                <li><a href="#services">Services</a></a></li>
+                <li><a href="#portfolio">Portfolio</a></a></li>
+                <li><a href="#contact">Contact</a></a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick=openmenu()></i>
+        </nav>
+        <div class="header-text">
+        <div class="textanimation">
+           
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- ----------about--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    
+                    <img src="images/kamal.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                   <h4> <p>
+                    Hi, I'm kamalesh Enthusiastic IT student at Velammal Institute Of Technology College. Seeking a Fulltime Opportunities for a frontend developer,UI/UX designer or a Software developer</p></h4>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab " id="skills">
+                            <ul>
+                                <li><span>UI/UX Designer </span><br>create logos,posters,photo editing,etc..,</li>
+                                <li><span>Website builder</span><br>Web App Development</li>
+                                <li><span>Software Engineer </span><br>Programming Languages Known like C, Java etc..</li>
+                                <li><span>Video Editing </span><br>Edit video content </li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Graduate - 2023</span><br>Student at Velammal Institute Of Technology(Fresher)-Seeking for fulltime opportunities</li>
+                                
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2019-203</span><br>Graduated IT Engineer at Velammal Institute of Technology College</li>
+                                <li><span>2017-2019</span><br>Completed School Education in St.Marys Boys Higher secondary school</li>
+    
+                            </ul>
+                         </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- -----------services-----// -->
+<div id="services">
+    <div class=""container>
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Design</h2>
+                <p>As a web designer, I craft visually stunning and user-friendly websites tailored to your brand. My services include responsive design, intuitive navigation, and modern aesthetics to enhance your online presence and captivate your audience. Let's bring your digital vision to life!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2> Video Editor</h2>
+                <p>As a video editor, I combine technical expertise and creative flair to transform raw footage into captivating stories. Specializing in editing, color grading, and motion graphics, I bring your vision to life, ensuring an engaging viewer experience. With a keen eye for detail and staying updated on industry trends, I elevate your content to surpass expectations and achieve impact.
+                    </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2> UI/UX Designer</h2>
+                <p>As a UI/UX designer, I craft seamless digital experiences by combining user-centric design principles with aesthetic creativity. I specialize in intuitive interfaces, user research, wireframing, and prototyping, ensuring your product engages and delights users while achieving your business goals.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- ------------------portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Frontend Developer</h3>
+                    <p>As a dedicated Frontend Developer and UI/UX Designer at DataDNA, I've played a pivotal role in shaping the digital landscape for our innovative company. Merging technical proficiency with design aesthetics, I've contributed to the development of visually compelling and seamlessly functional interfaces for DataDNA's(Company) digital platforms.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+               
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>UI/UX design</h3>
+                    <p>As a dedicated UI/UX designer, I am proud to have contributed to the digital presence of DataDNA
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Machine learning for Indolence perception</h3>
+                    <p>A software that empowering safety on the road: Harnessing machine learning to detect driver drowsiness, ensuring a vigilant and secure journey.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="# " class="btn">See More</a>
+
+    </div>
+</div>
+<!-- -------------------------contact---------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> kamaleshsenthilkumar2001@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 8056000948</p>
+                <div class="social-icons">
+                    <!-- <a href="https://www.facebook.com/profile.php?id=100023793573487&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>-profile link -->
+                    <a href="https://twitter.com/ikamal_official"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/ikamal_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kamalesh-ss"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.threads.net/@ikamal_official"><i class="fa-brands fa-threads"></i></i></a>
+
+                </div>
+                <a href="images/KamaleshSS_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+            <span id="msg"></span>
+
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Kamal. Made with <i class="fa-solid fa-heart"></i>    </p><!---------copyright-->
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
